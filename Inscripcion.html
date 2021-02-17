@@ -1,0 +1,155 @@
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>	
+		<link type="text/css" rel="stylesheet" href="Estilo.css">
+		<link rel="shortcut icon" href="Imagenes\LOGO.JPG"> 
+		<title> MX2021 </title>
+	</head>
+		
+	
+	<body>
+	
+	<div class= "Pagina"> 
+	
+		<div class= "Cabecera"> 
+			<a href="index.html"> <img src="Imagenes\LOGO.JPG" width= "160" height= "45"> </a>
+
+		<div id="Menu">
+			<ul class="Indice">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Inscripcion.html">Inscripcion</a></li>
+				<li><a href="Calendario.html">Calendario</a></li>
+				<li><a href="Clasificaciones.html">Clasificaciones</a>
+					<ul>
+						<li> <a href="EliteMX1.html"> Elite MX1 </a> </li>
+						<li> <a href="EliteMX2.html"> Elite MX2 </a> </li>
+						<li> <a href="MXFemenino.html"> MX Femenino </a> </li>
+						<li> <a href="MX125.html"> MX 125 </a> </li>
+						<li> <a href="MX85.html"> MX 85 </a> </li>
+						<li> <a href="MX65.html"> MX 65 </a> </li>
+						<li> <a href="MXSub18.html"> MX Sub18 </a> </li>
+						<li> <a href="MXMaster.html"> MX Master </a> </li>
+							<ul>
+								<li> <a href="Master35.html"> Master 35 </a> </li>
+								<li> <a href="Master40.html"> Master 40 </a> </li>
+								<li> <a href="Master50.html"> Master 50 </a> </li>
+							</ul>
+						<li> <a href="KawasakiCup.html"> Kawasaki Team Green Cup </a> </li>
+							<ul>
+								<li> <a href="KawasakiMX1.html"> Kawasaki MX1 </a> </li>
+								<li> <a href="KawasakiMX2.html"> Kawasaki MX2 </a> </li>
+							</ul>
+						<li> <a href="YamahaCup.html"> Yamaha YZ Blu Cup </a> </li>
+							<ul>
+								<li> <a href="YZ125.html"> YZ 125 </a> </li>
+								<li> <a href="YZ125.html"> YZ 85 </a> </li>
+								<li> <a href="YZ65.html"> YZ 65 </a> </li>
+							</ul>
+					</ul>
+				</li>
+				<li> <a href="Galeria.html"> Galeria de Imagenes </a> </li>
+				<li> <a href="Contacto.html"> Contacto </a> </li>
+			</ul>
+		</div>
+		</div>
+		
+		<div class= "FormularioTitulo">
+			<h1> INSCRIPCIÓN PARA CARRERA </h1>
+		</div>		
+		
+		<div class= "Formulario">
+		
+		<form action="InscripcionOK.html" method="post">
+													
+		<!-- Datos del Piloto -->
+			<div class= "TitulosDatos"> Datos del Piloto </div>
+				Nombre <input type="text" name=“nombre“ maxlength="30"> 
+				1º Apellido <input type="text" name=“apellidos“ maxlength="80"> 
+				2º Apellido <input type="text" name=“contraseña“ maxlength="10"> 
+			<br>
+				DNI <input type="text" name=“dni“ maxlength="10"> 
+				Fecha de Nacimiento <input type="text" name=“fecha“ maxlength="10">
+				Sexo
+					<input type= "radio" name=“hombre“/> Hombre 
+					<input type= "radio" name=“mujer“/> Mujer 
+			<br>
+				Correo electronico <input type="mail" name=“correo“ maxlength="80" size="57"> 
+				Telefono <input type="tel" name=“telefono“ maxlength="10" size="15" >
+			<br>				
+		<!-- Datos de Licencia -->
+			<div class= "TitulosDatos"> Datos de la Licencia </div>
+			Licencia <input type="text" name=“licencia“ maxlength="11" size="15"> 
+			Categoria <input type="text" name=“categoria“ maxlength="30" size="20">
+			Dorsal <input type="text" name=“dorsal“ maxlength="11" size="5">			
+		<!-- Datos de Moto -->
+			<div class= "TitulosDatos"> Datos del Vehiculo </div>
+				El piloto lleva 
+				<select>
+							<option value="moto1"> 1 </option>
+							<option value="moto2"> 2 </option>
+				</select>
+				Vehiculos del fabricante
+				<select>
+						<option value="Honda"> Honda </option>
+						<option value="Kawasaki"> Kawasaki </option>
+						<option value="Yamaha"> Yamaha </option>
+						<option value="Suzuki"> Suzuki </option>
+						<option value="Husqvarna"> Husqvarna </option>
+						<option value="Derbi"> Derbi </option>
+						<option value="GasGas "> Gas Gas </option>
+						<option value="Sherco"> Sherco </option>
+						<option value="Husqvarna"> Otro </option>
+				
+				</select>
+				y acudira a la prueba
+				<select>
+						<option value="Honda"> MONTEARAGON, Toledo, Circuito Tajoa Racing </option>
+						<option value="Kawasaki"> ALBAIDA, Valencia, Complex del Motor </option>
+						<option value="Yamaha"> CALATAYUD, Zaragoza, Circuito Castillo de Ayud	 </option>
+						<option value="Suzuki"> MALPARTIDA DE CACERES, Caceres, Circuito Las Arenas </option>
+						<option value="Husqvarna"> TALAVERA DE LA REINA, Toledo, Circuito Cerro Negro </option>
+						<option value="Derbi"> TOTANA, Murcia, Solmoto MX Park </option>
+						<option value="GasGas "> ALCAÑIZ, Teruel, Circuito Motorland Aragon </option>
+						<option value="Sherco"> DON BENITO, Badajoz, Circuito Doña Blanca </option>
+						<option value="Husqvarna"> ALHAMA DE MURCIA, Murcia, Circuito Las Salinas </option>
+				
+				</select>
+				puntuable para el campeonato nacional de motocross.
+			<p>
+			Adjuntar papel de COVID: <input type="file" name=“fille“/>
+			<br>
+			El solicitante acepta la publicación de datos en la pagina oficial	<input type="checkbox" checked > <input type="submit" value="Guardar cambios">  
+			<div class= "Botones"> <br>
+				<input type="reset" value="Borrar información">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>	
+		
+		</div>
+		
+		<div class= "Piedepagina"> 
+			<p class="Pieizquierda" align="left">
+				<ul>
+					<b> <u> Siguenos en redes </u> </b>
+					<li> <img src="Imagenes\twitter.png" width="30" height="30"> ............................MX2021 </li>
+					<li> <img src="Imagenes\instagram.png" width="30" height="30"> ............................MX2021 </li>
+					<li> <img src="Imagenes\facebook.png" width="30" height="30"> ............................MX2021 </li>
+				</ul>
+				<ul>
+					<b> <u> Contacto </u> </b>
+					<li> C/ San Germán, 6, Calle del Pintor Juan Gris, 1, 28020 Madrid </li>
+					<li>Tlf: 910231236 </li>
+					<li>Email: MX2021@gmail.com </li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class= "Copyright"> 
+			Copyright © MX2021 Todos los derechos reservados. 
+		</div>
+
+	</div>
+	</body>
+	
+<html>

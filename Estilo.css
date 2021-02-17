@@ -1,0 +1,218 @@
+<style type="text/CSS">
+
+		.Pagina{
+		background-color: #F8F9F9;
+		width: 100%;
+		font-family:Arial, Helvetica, sans-serif;
+		list-style: none;
+		text-align:center;
+		text-decoration: none;
+		}
+		
+		.Cabecera{
+		background-color: #273746;
+		color: White;
+		text-align: center;
+		padding: 32px;
+		width: 100%;
+		margin-left: -8;
+		margin-right: -8;
+		margin-top: -8;
+		}
+		
+		.Menu {
+		margin: auto;
+		width:100%;
+		background-color: #273746;
+		}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.Indice > li {
+			float: left;
+			}
+			
+			.Indice li a {
+				background-color: #273746;
+				text-align: center;
+				color: White;
+				font-family:Arial, Helvetica, sans-serif;
+				text-decoration:none;
+				width:190px;
+				padding:7px;
+				display:block;
+			}
+			
+			.Indice li a:hover {
+				background-color:#434343;
+			}
+			
+			.Indice li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.Indice li:hover > ul {
+				display:block;
+			}
+			
+			.Indice li ul li {
+				position:relative;
+			}
+			
+			.Indice li ul li ul {
+				right:500px;
+				top:0px;
+			}
+			
+		
+		#Reproduccion{
+		min-width: 80%;
+		aling: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		}
+		
+		.Informacion{
+		color: Black;
+		font-family:Arial, Helvetica, sans-serif;
+		font-style: normal;
+		text-align: center;
+		padding: 10px;
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+		}
+		
+		.Noticias{
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:center;
+		list-style: none;
+		padding: 10px;
+		width: 100%;
+		margin-left: -8;
+		margin-right: -8;
+		margin-top: 3%;
+		margin-bottom: 2%;
+		Color: Black;
+		}
+		
+		
+		.Piedepagina{
+		background-color: #34495E;
+		font-family:Arial, Helvetica, sans-serif;
+		color: White;
+		text-align: Center;
+		padding: 10px;
+		margin-left: -8;
+		margin-right: -8;
+		margin-top: -8;
+		}
+		
+		.Piedepagina Pieizquierda{
+		background-color: #34495E;
+		}
+		
+		.Copyright{
+		background-color: #273746;
+		font-family:Arial, Helvetica, sans-serif;
+		color: Grey;
+		text-align: left;
+		padding: 10px;
+		margin-left: -8;
+		margin-right: -8;
+		}
+		
+		.FormularioTitulo{
+		font-family:Arial, Helvetica, sans-serif;
+		color: Black;
+		font-size: 16px;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 10;
+		margin-top: 75;
+		}
+		
+		.Formulario{
+		border: 1;
+		background-color: Gainsboro;
+		font-family:Arial, Helvetica, sans-serif;
+		color: Black;
+		text-align: left;
+		line-height: 30pt;  
+		word-spacing: 5pt;
+		padding: 10px;
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-bottom: 5%;
+		}
+		
+		.TitulosDatos{
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: Black;
+		text-align: left;
+		padding: 10px;
+		}
+		
+		.Botones{
+		text-align: right;
+		}
+		
+		.Aceptado{
+		text-align: center;
+		border: 1;
+		background-color: Gainsboro;
+		font-family:Arial, Helvetica, sans-serif;
+		color: Black;
+		line-height: 30pt;  
+		word-spacing: 5pt;
+		padding: 10px;
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-bottom: 5%;
+		}
+		
+		.Fotos{
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:center;
+		list-style: none;
+		padding: 10px;
+		width: 100%;
+		margin-left: -8;
+		margin-right: -8;
+		margin-top: -1%;
+		margin-bottom: 2%;
+		Color: Black;
+		}
+		
+		.Contacto{
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:center;
+		list-style: none;
+		padding: 10px;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		Color: Black;
+		}
+		
+		.tablas{
+		margin-bottom: 5%;
+		}
+		
+		.Calendario{
+		font-family:Arial, Helvetica, sans-serif;
+		Color: Black;
+		margin-top: -1%;
+		margin-bottom: 5%;
+		}
+	</style>
